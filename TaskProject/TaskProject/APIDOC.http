@@ -1,0 +1,46 @@
+###
+POST http://127.0.0.1:8000/fact/
+Content-Type: application/json
+
+{
+    "number" : 5
+}
+
+###
+POST http://127.0.0.1:8000/si/
+Content-Type: application/json
+
+{
+    "principal" : 10000,
+    "time" : 2,
+    "rate" : 5
+}
+
+###
+POST http://127.0.0.1:8000/discount/
+Content-Type: application/json
+
+{
+    "price" : 2000,
+    "discount_percentage" : 10
+}
+
+###
+POST http://127.0.0.1:8000/profit/
+Content-Type: application/json
+
+{
+    "cost_price" : 500,
+    "selling_price" : 650
+}
+
+
+###
+POST http://127.0.0.1:8000/salary/
+Content-Type: application/json
+
+{
+    "basic" : 30000,
+    "bonus" : 5000,
+    "deduction" : 2000
+}
